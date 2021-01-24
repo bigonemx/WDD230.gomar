@@ -51,9 +51,10 @@ nav ul li.active a {
 }
 /*----------- MAIN --------------*/
 main {
+    background-color:#fffffb;
     padding: 0 2%;
     min-height: 10rem;
-    background-color:#fffffb ;
+    
 }
 
 

@@ -13,7 +13,12 @@ header h2 {font-size: 1.5rem;}
 
 
 /*----------- NAVIGATION --------------*/
-    nav ul {margin-left: 2%;}
+nav ul {
+    margin-left: 2%;
+    display: flex;
+    justify-content: space-around;    
+}
+
     nav ul li {float: left;}
 
     nav ul li a{padding: .5rem 1rem;}
@@ -22,7 +27,7 @@ header h2 {font-size: 1.5rem;}
 /*----------- MAIN --------------*/
 
 
-
+  
 /*----------- FOOTER --------------*/
     
 } /* end of media query */

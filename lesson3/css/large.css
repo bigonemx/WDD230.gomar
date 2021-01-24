@@ -1,0 +1,15 @@
+@media only screen and (min-width: 1028px) {
+    header, nav, main, footer {
+        max-width: 64rem;
+        margin:auto;
+    }
+
+    .logo {
+        width: 15rem;
+    }
+    
+    .pallet {
+        width: 15rem;
+    }
+
+}
