@@ -66,12 +66,12 @@ main {
     background-color:#ffffff ;
 }
 main h1 {font-family: 'Indie Flower', cursive; color: #57777c;}
-main h2 {font-size: 1rem; font-weight: 500; color: #57777c;}
-main h4 {font-size: 1rem; font-weight: 400; color: #57777c;}
-main p {font-size: 1rem; font-weight: 400; color: #57777c;}
+main h2 {font-size: 1.5rem; font-weight: 500; color: #57777c;}
+main h4 {font-size: 1.5rem; font-weight: 400; color: #57777c;}
+main p {font-size: 1.5rem; font-weight: 400; color: #57777c;}
 
 .hero, .forecast, .article, .content {
-    
+    font-size: 1.5rem;
     background-color: #ffea8b;
     color: black;
     border-top: 3px dotted black;
