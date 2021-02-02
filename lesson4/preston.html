@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>WDD230: The Preston Town Page - Home</title>
+        <meta name="description" content="This page is my preston town page for WDD230 @ BYUi using Visual Media and Github 2021">
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!--Stylesheets-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">    
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+<body>
+    <header>
+        <img src="images/weatherlogo.png" alt="weather logo">
+        <h1>The South Jordan Climate Watcher</h1>
+        <h3>Your neighborhood weather and more...</h3>
+        <br>
+    </header>
+    <script src="js/scripts.js"></script>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+
+<main>
+    <h2>Preston Idaho</h2>
+    <div class="hero">Hero with weather summary</div>
+    <div class="forecast">5 Day Forecast</div>
+    <div class="article">Article</div>
+    <div class="content">Contact Information</div>
+</main>
+
+<footer>
+   &copy; <span id="Year"></span> | Edwin Gomar | Utah | <a class="byuilink" href="https://www.byui.edu/online">BYUI Online Learning</a>
+    <br>
+    Last Updated: <span id="Modified"></span>
+    <script src='js/updatedate.js'></script>
+</footer>
+</body>
+</html> 
