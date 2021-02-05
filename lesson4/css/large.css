@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1028px) {
+@media only screen and (min-width: 760px) {
 
 
     nav {
@@ -21,7 +21,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57777c', end
     nav ul li a {
         font-size: 2rem;
         border: none;
-        border-right: 1px solid rgba (0,0,0,0.3);
+        border-right: 1px solid rgba(0,0,0,0.3);
         padding: .6rem 1rem;
     }   
 
