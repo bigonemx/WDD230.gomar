@@ -67,7 +67,7 @@ main {
     max-width: 95%;
     
 }
-main h1 {font-family: 'Indie Flower', cursive; color: #57777c;}
+main h1 {font-family: 'Indie Flower', cursive; color: #57777c;font-size: 2rem;}
 main h2 {font-size: 1.5rem; font-weight: 500; color: #57777c;}
 main h4 {font-size: 1.5rem; font-weight: 400; color: #57777c;}
 main p {font-size: 1.5rem; font-weight: 400; color: #57777c;}
