@@ -18,8 +18,8 @@
     <header>
         <img src="images/weatherlogo.png" alt="weather logo">
         <h1>The South Jordan Climate Watcher</h1>
-        <h3>Your neighborhood weather and more...</h3>
-        <br>
+        <h2>Your neighborhood weather and more...</h2>
+
     </header>
     <script src="js/scripts.js"></script>
     <nav class="clearfix">
@@ -34,19 +34,89 @@
         </ul>
     </nav>
 
-<main>
-    <h1>Preston Idaho</h1>
-    <div class="hero">
-        <img class="heroimg" src="" alt="Mexico city under the rain">
+    <main class="clearfix, large">
+        <h1>South Jordan</h1>
+        <div id="announcement">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+        <script src="js/notice.js"></script>
 
+        <section class="hero">
+            <img class="heroimg" src="images/mexicoimg.jpg" alt="Mexico city under the rain">
+            <div class="weathersummary">
+            <h4>Weather Summary</h4>   
+            <p>High:   48°</p>
+            <p>Low:    38°</p>
+            <p>Wind:   10 mph</p>
+            </div>
+        </section>
 
+        <section class="forecast">
+            <h2>5 Day Forecast</h2>
+            <div class="forecast-grid">
+                    <Div class="dfc">
+                        <h4>Monday</h4>
+                        <img src="images/cloudy.png" alt="cloudy">
+                        <p>34°</p>
+                    </Div>
+                    <Div class="dfc">
+                        <h4>Tuesday</h4>
+                        <img src="images/rainyish.png" alt="some rain">
+                        <p>32°</p>
+                    </Div>
+                    <Div class="dfc">
+                        <h4>Wednesday</h4>
+                        <img src="images/cloudy.png" alt="cloudy">
+                        <p>34°</p>
+                    </Div>
+                    <Div class="dfc">
+                        <h4>Thursday</h4>
+                        <img src="images/rainy.png" alt="rainy">
+                        <p>33°</p>
+                    </Div>
+                    <Div class="dfc">
+                        <h4>Friday</h4>
+                        <img src="images/sunny.png" alt="sunny">
+                        <p>37°</p>
+                    </Div>
+            </div>
 
+        
 
-    </div>
-    <div class="forecast">5 Day Forecast</div>
-    <div class="article">Article</div>
-    <div class="content">Contact Information</div>
-</main>
+        </section>
+
+        <section class="article">
+            <h2>Article Title</h2>
+                <img class="articleimgtop" src="images/construction.jpg" alt="New building">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Convallis a cras semper auctor neque vitae. Tortor vitae purus faucibus ornare suspendisse sed nisi lacus. Netus et malesuada 
+                fames ac turpis egestas sed tempus. Euismod lacinia at quis risus sed vulputate odio ut enim. Ornare massa eget egestas purus 
+                viverra accumsan in. Lacus vel facilisis volutpat est. Quis ipsum suspendisse ultrices gravida dictum fusce ut. In hendrerit gravida 
+                rutrum quisque non tellus orci ac. Aliquet nec ullamcorper sit amet risus nullam eget. Commodo quis imperdiet massa tincidunt nunc 
+                pulvinar sapien et. Blandit cursus risus at ultrices mi tempus imperdiet nulla. Semper quis lectus nulla at volutpat diam ut. Commodo 
+                nulla facilisi nullam vehicula ipsum. Tortor aliquam nulla facilisi cras fermentum odio. Sed faucibus turpis in eu mi. 
+                Tristique senectus et netus et malesuada.</p>
+                <img class="articleimgbottom" src="images/construction.jpg" alt="New building">
+        </section>
+
+        <section class="contact">
+            <h2>Contact Information</h2>
+            <div class="contact-grid">
+                <div class="address">
+                    <h4>Address:</h4>
+                    <p>The South Jordan Center <br> 123 Main Street. <br> Franklin, MI 87654</p>
+                </div>
+                <div class="contact-info">
+                    <h4>Phone:</h4>
+                    <p>801-555-1234</p>
+                    <br>
+                    <h4>Email:</h4>
+                    <p>contact@yoururl.com</p>
+                </div>
+                <div class="map">
+                    <img class="mapimg" src="images/map.jpg" alt="city map">
+                </div>
+            </div>
+        </section>
+    </main>
 
 <footer>
    &copy; <span id="Year"></span> | Edwin Gomar | Utah | <a class="byuilink" href="https://www.byui.edu/online">BYUI Online Learning</a>

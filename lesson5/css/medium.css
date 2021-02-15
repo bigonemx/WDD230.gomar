@@ -1,18 +1,106 @@
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 560px) {
 
-/* Body */
+/*          Body            */
 
 
 
-/* Header */
-header img {width: 4.5rem;}
-header h1 {font-size: 2rem;}
-header h3 {font-size: 1.5rem;}
-
-/*nav*/
-nav ul li a {font-size: 1.3rem;}
+/*          Header          */
+.header {
+    padding-bottom: 1rem;
 }
 
-Main {
-    max-width: 80%;
+header img {width: 4rem;}
+header h1 {
+    font-size: 1.5rem;
+    margin-top: 2%;
+}
+
+header h2 {font-size: 1rem;}
+
+/*          Nav         */
+nav {
+    background: #57777c; /* Old browsers */
+    background: -moz-linear-gradient(top,  #57777c 0%, #75a0a5 50%, #57777c 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #57777c 0%,#75a0a5 50%,#57777c 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #57777c 0%,#75a0a5 50%,#57777c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57777c', endColorstr='#57777c',GradientType=0 ); /* IE6-9 */
+    }
+    
+nav button {display: none;}
+    
+nav ul.hide {display: block;}
+        
+nav ul li {float: left;}
+        
+nav ul li a {
+    font-size: 1rem;
+    border: none;
+    border-right: 1px solid rgba(0,0,0,0.3);
+    padding: .6rem .5rem;
+}  
+
+/*          Main            */
+
+.forecast {
+    display: block;
+}
+
+.forecast-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+}
+
+
+.dfc {
+    border-radius: .1rem;
+    margin: .5rem;
+    box-shadow: 0 0 15px #57777c;
+}
+
+.dfc h4{margin: 2%;}
+.dfc p{margin: 2%;}
+
+.dfc img {
+    width: 4rem;
+}
+
+.article {
+    margin: .5rem;
+}
+
+.articleimgtop {
+    display: block;
+    float: right;
+    max-width: 45%;
+    margin: .3rem;
+}
+.articleimgbottom {
+    display: none;
+}
+.contact h4 {font-size: .7rem;}
+.contact p {font-size: .7rem;}
+
+.contact-grid {
+    grid-template-columns: 1fr 1fr 40%;
+}
+
+.address {
+    grid-column: 1/3;
+    grid-row: 1/1;
+}
+
+.contact-info {
+    grid-column: 2/3;
+    grid-row: 1/1;
+}
+
+.map {
+    grid-column: 3/3;
+    grid-row: 1/1;
+}
+
+/*          Footer          */
+
+
 }
