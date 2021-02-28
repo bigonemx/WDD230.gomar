@@ -85,9 +85,9 @@ div.hideme {display: none;}
     align-items: center;
 }
 
-.heroimg {
-    max-width: 100%;
-    height: auto;  
+.heroimg img{
+    display: block;
+    width: 100%;
 }
 
 .weathersummary {
