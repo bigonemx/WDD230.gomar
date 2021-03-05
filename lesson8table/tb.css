@@ -1,0 +1,61 @@
+/* font-family: 'Ubuntu', sans-serif; 
+color scheme includes #e7f0ed, #e7ffed (data rows) and #628ca6, #7fb9c2 along with standard white and black */
+
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    }
+
+h1 {
+    text-align: center;
+}
+
+table th td
+ {
+    border-collapse: collapse;
+}
+
+table {
+    box-shadow: 10pt 10pt 10pt  #628ca6;
+    margin: 0 auto;
+    border-style: solid;
+    border-spacing: 1px;
+
+}
+
+thead th {
+    background-color: #7fb9c2;
+    color: black;
+    padding: 10px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.tableheader th {
+    background-color: #628ca6;
+    color: white;
+    padding: 7px;
+}
+
+td {
+    padding: 10px 15px;
+    text-align: center;
+}
+
+tfoot td {
+    background-color: #7fb9c2;
+    font-size: 13px;
+}
+
+td[data-rel='sel'] {
+    background-color: #628ca6;
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: #e7ffed;
+}
+
+tr:nth-child(even) {
+    background-color: #e7f0ed;
+}
