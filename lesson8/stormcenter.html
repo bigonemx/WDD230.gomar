@@ -60,7 +60,7 @@
                     <option value="Tornado"></option>
                  </datalist>
               </label>
-              <label class="ftop">Storm Severity: <span id="stormseverity">5</span></label>
+              <label class="ftop">Storm Severity: <span id="stormseverity">5</span>
     
                   <input class="slider" type="range" name="severity" id="severity" min="1" max="10" step="1" value="5" 
                 oninput="changeSeverity(this.value);" onchange="changeSeverity(this.value);">
@@ -71,11 +71,16 @@
                     <option value="preston">Preston</option>
                     <option value="soda springs">Soda Springs</option>
                     <option value="fish haven">Fish Haven</option>
+                 </select>   
               </label>
-              <label class="sbs">Are you in danger?</label>
-              <label class="sbs"><input type="radio" name="userDlevel" value="Yes"><span class="optionvalue">Yes</span></label>
-              <label class="sbs"><input type="radio" name="userDlevel" value="Maybe"><span class="optionvalue">Maybe</span></label>
-              <label class="sbs"><input type="radio" name="userDlevel" value="No"><span class="optionvalue">No</span></label>
+
+            
+              <label class="ftop">Are you in danger?</label>
+                <label class="sbs"><input type="radio" name="userDlevel" value="Yes"><span>  Yes</span></label>
+                <label class="sbs"><input type="radio" name="userDlevel" value="Maybe"><span>  Maybe</span></label>
+                <label class="sbs"><input type="radio" name="userDlevel" value="No"><span>  No</span></label>
+            
+       
         </fieldset>
               
         <fieldset>

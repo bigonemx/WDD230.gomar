@@ -242,10 +242,9 @@ form label.ftop input:required {
     padding: 10px;
 }
 
-form label.sbs {
+.sbs {
     display: block;
-    padding: .75rem 0;
-    font-weight: 600;
+    padding: .75rem 1rem;
 }
 
 form textarea {
