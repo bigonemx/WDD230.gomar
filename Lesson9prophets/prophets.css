@@ -1,0 +1,69 @@
+Header {
+    text-align: center;
+    font-size: 1.5rem;
+    color:rgb(0, 0, 139);
+}
+
+main {
+    padding: 2rem 0rem;
+    background-color: rgb(76 117 206 / 65%);
+    box-shadow: 1px 0px 30px 15px rgb(76, 117, 206); 
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 15px;
+    justify-content: center;
+}
+
+section {
+    width: 30rem;
+    border: solid 1px;
+    border-radius: 1rem;
+    background-color: rgb(179 139 63 / 90%);
+    padding: .75rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 800;
+}
+
+img {
+    max-width: 60%;
+    border-radius: 1rem;
+    box-shadow: 0 0 30px black;
+}
+
+p {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+
+@media only screen and (min-width: 35rem) {
+    .cards {
+        grid-template-columns: 1fr 1fr;   
+    }
+
+    img {
+        max-width: 75%;
+    }
+}
+
+@media only screen and (min-width: 65rem) {
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+}
