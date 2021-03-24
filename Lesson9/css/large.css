@@ -13,7 +13,7 @@
 
 .gallery figure:hover {box-shadow: 0 0 50px #333;}
 
-}
+
 
 
 /*          Home            */
@@ -25,3 +25,15 @@
     margin: 0 auto;
     margin-bottom: 1em;
   }
+
+  .cards section {
+    display: block;
+  }
+  .cards section #details {
+    margin-top: 1em;
+    padding: 0;
+    text-align: center;
+  }
+  
+
+}
