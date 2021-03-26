@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>WDD230: MY home page - Home</title>
+        <meta name="description" content="This page is my preston town page for WDD230 @ BYUi using Visual Media and Github 2021">
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!--Stylesheets-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+<body>
+    <header>
+        <img src="images/weatherlogo.png" alt="weather logo">
+        <h1>The South Jordan Climate Watcher</h1>
+        <h2>Your neighborhood weather and more...</h2>
+
+    </header>
+    
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main class="clearfix, large">
+        <h1>South Jordan Home page</h1>
+        
+        <section class="hero">
+            <picture class="heroimg">
+                <source media="(max-width: 500px)" srcset="images/mexs.png">
+                <source media="(max-width: 800px)" srcset="images/mexm.png">
+                <img src="images/mexl.png" alt="Palacio de Bellas artes image">   
+            </picture> 
+        </section>
+
+        <div class="cards"></div>
+
+        <section class="article">
+            <h2>Article Title</h2>
+                <img class="articleimgtop" src="images/gallery/gallery8.jpg" alt="New building">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Convallis a cras semper auctor neque vitae. Tortor vitae purus faucibus ornare suspendisse sed nisi lacus. Netus et malesuada 
+                fames ac turpis egestas sed tempus. Euismod lacinia at quis risus sed vulputate odio ut enim. Ornare massa eget egestas purus 
+                viverra accumsan in. Lacus vel facilisis volutpat est. Quis ipsum suspendisse ultrices gravida dictum fusce ut. In hendrerit gravida 
+                rutrum quisque non tellus orci ac. Aliquet nec ullamcorper sit amet risus nullam eget. Commodo quis imperdiet massa tincidunt nunc 
+                pulvinar sapien et. Blandit cursus risus at ultrices mi tempus imperdiet nulla. Semper quis lectus nulla at volutpat diam ut. Commodo 
+                nulla facilisi nullam vehicula ipsum. Tortor aliquam nulla facilisi cras fermentum odio. Sed faucibus turpis in eu mi. 
+                Tristique senectus et netus et malesuada.</p>
+                <img class="articleimgbottom" src="images/gallery/gallery8.jpg" alt="New building">
+        </section>
+
+        <section class="contact">
+            <h2>Contact Information</h2>
+            <div class="contact-grid">
+                <div class="address">
+                    <h4>Address:</h4>
+                    <p>The South Jordan Center <br> 123 Main Street. <br> Franklin, MI 87654</p>
+                </div>
+                <div class="contact-info">
+                    <h4>Phone:</h4>
+                    <p>801-555-1234</p>
+                    <br>
+                    <h4>Email:</h4>
+                    <p>contact@yoururl.com</p>
+                </div>
+                <div class="map">
+                    <img class="mapimg" src="images/map.jpg" alt="city map">
+                </div>
+            </div>
+        </section>
+    </main>
+
+<footer>
+   &copy; <span id="Year"></span> | Edwin Gomar | Utah | <a class="byuilink" href="https://www.byui.edu/online">BYUI Online Learning</a>
+    <br>
+    Last Updated: <span id="Modified"></span>
+</footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+    <script src="js/notice.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/updatedate.j"></script>
+    <script src="js/towndata.js"></script>
+</body>
+</html> 
