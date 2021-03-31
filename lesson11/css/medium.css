@@ -100,6 +100,22 @@ nav ul li a {
     grid-row: 1/1;
 }
 
+.mapimg {
+    width: 100%;
+}
+
+
+.upcoming {
+    max-width: 60%;
+}
+
+.upcoming h2 {
+    font-size: 2em;
+}
+
+.upcoming p {
+    font-size: 1.5em;
+}
 /*          Gallery         */
 .gallery-grid {
     display: grid;

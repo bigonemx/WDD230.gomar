@@ -23,8 +23,8 @@
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
             <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="preston.html">Preston</a></li>
-            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li class="active"><a href="sodasprings.html">Soda Springs</a></li>
             <li><a href="fishheaven.html">Fish Haven</a></li>
             <li><a href="stormcenter.html">Storm Center</a></li>
             <li><a href="gallery.html">Gallery</a></li>
@@ -32,16 +32,14 @@
     </nav>
 
     <main class="clearfix, large">
-        <h1>Preston</h1>
-        <div id="announcement">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
-        
+        <h1>Fish Heaven</h1>
+    
         <section class="hero">
             <picture class="heroimg">
-                <source media="(max-width: 500px)" srcset="images/prestons.jpg">
-                <source media="(max-width: 800px)" srcset="images/prestonm.jpg">
-                <img src="images/prestonl.jpg" alt="weather image">   
+                <source media="(max-width: 500px)" srcset="images/sodaspringss.jpg">
+                <source media="(max-width: 800px)" srcset="images/sodaspringsm.jpg">
+                <img src="images/sodaspringsl.jpg" alt="Fish Heaven image">   
             </picture> 
-            
             <div class="weathersummary">
                 <h4>Town name: <span id="townname"></span></h4>
                 <p>Current Temp: <span id="current-temp"></span>&deg;F</p>
@@ -49,7 +47,6 @@
                 <p>Wind Chill: <span id="windchill"></span></p>
                 <p>Humidity: <span id="humidity"></span>%</p>
                 <p>Wind Speed: <span id="speed"></span> mph </p>
-                <!-- <p id="chill">message</p> -->
               </div>
         </section>
 
@@ -82,7 +79,7 @@
                         <p><span id="forecast5"></span>&#8457;</p>
                     </Div>
             </div>
-        </section>
+        </section>    
 
         <section class="upcoming">
             <h2>Upcoming Events</h2>
@@ -90,12 +87,14 @@
         </section>
 
         <section class="article">
-            <h2>Is my water safe?</h2>
-                <img class="articleimgtop" src="images/construction.jpg" alt="New building">
-                <p>Drinking water, including bottled water, may reasonably be expected to contain at least small amounts of some contaminants. The presence of contaminants does not necessarily indicate that water poses a health risk. More information about contaminants and potential health effects can be obtained by calling the Environmental Protection Agency's (EPA) Safe Drinking Water Hotline (800-426-4791). The sources of drinking water (both tap water and bottled water) include rivers, lakes, streams, ponds, reservoirs, springs, and wells. As water travels over the surface of the land or through the ground, it dissolves naturally occurring minerals and, in some cases, radioactive material, and can pick up substances resulting from the presence of animals or from human activity:
-                    microbial contaminants, such as viruses and bacteria, that may come from sewage treatment plants, septic systems, agricultural livestock operations, and wildlife; inorganic contaminants, such as salts and metals, which can be naturally occurring or result from urban stormwater runoff, industrial, or domestic wastewater discharges, oil and gas production, mining, or farming; pesticides and herbicides, which may come from a variety of sources such as agriculture, urban stormwater runoff, and residential uses; organic Chemical Contaminants, including synthetic and volatile organic chemicals, which are by-products of industrial processes and petroleum production, and can also come from gas stations, urban stormwater runoff, and septic systems; and radioactive contaminants, 
-                    which can be naturally occurring or be the result of oil and gas production and mining activities. In order to ensure that tap water is safe to drink, EPA prescribes regulations that limit the amount of certain contaminants in water provided by public water systems. Food and Drug Administration (FDA) regulations establish limits for contaminants in bottled water which must provide the same protection for public health.</p>
-                <img class="articleimgbottom" src="images/construction.jpg" alt="New building">
+            <h2>Soda Springs Geyser</h2>
+                <img class="articleimgtop" src="images/bearlake.jpg" alt="New building">
+                <p>Each year it is a family tradition to take a trip to Bear Lake to enjoy many of the outdoor activities in and around the lake. Beside the lake itself, there are many other activities nearby, such as natural caves, high mountain lakes, hot springs, and even a geyser.
+                The Soda Springs Captive Geyser was accidentally created by man. This is not a natural geyser like those found in Yellowstone National Park; nonetheless, this geyser is unique and has some great history tied to it as well.
+                In 1937, several local businessmen attempted to divert water from the Pyramid Hot Spring in hopes to create a commercial bathhouse and a tourist attraction. As the drilling reached 315 feet in depth, the drill hit a gas chamber, and shortly afterwards hot water began gushing up the hole and was shooting 40 feet in the air.
+                The next day as the 3500lb drill bit was extracted, the ground began to shake as if it was going to split open, and a roaring gusher of hot water shot 70 feet into the air. After several days, the water began to cool and become laden with minerals, which was unsuitable for a bath house. Two weeks later the gusher was capped.
+                </p>
+                <img class="articleimgbottom" src="images/bearlake.jpg" alt="New building">
         </section>
 
         <section class="contact">
@@ -103,17 +102,17 @@
             <div class="contact-grid">
                 <div class="address">
                     <h4>Address:</h4>
-                    <p>City of Preston<br> 70 W Oneida <br> Preston, ID 83263</p>
+                    <p>Soda Springs<br> 9 West 2nd South<br> Soda Springs, ID 83276</p>
                 </div>
                 <div class="contact-info">
                     <h4>Phone:</h4>
-                    <p>(208) 852-1817</p>
+                    <p>435-946-5800</p>
                     <br>
                     <h4>Email:</h4>
-                    <p>julies@prestonid.us</p>
+                    <p>sodasprings@gmail.com</p>
                 </div>
                 <div class="map">
-                    <img class="mapimg" src="images/prestoncity.png" alt="Preston city map">
+                    <img class="mapimg" src="images/sodaspringsmap.png" alt="Soda Springs map">
                 </div>
             </div>
         </section>
@@ -128,6 +127,6 @@
     <script src="js/webfontload.js"></script>
     <script src="js/notice.js"></script>
     <script src="js/updatedate.js"></script>
-    <script src="js/prestonapi.js"></script>
+    <script src="js/sodaspringsapi.js"></script>
 </body>
 </html> 
