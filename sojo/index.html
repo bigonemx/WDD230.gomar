@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>WDD 230: Sojo final pryect - Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <!--Stylesheets-->
+        <style>@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');</style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+
+    <body>
+        <header>
+           
+            <nav class="clearfix">
+                <button onclick="toggleMenu()">&#9776;</button>
+                <ul id="primaryNav" class="hide">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="city.html">City</a></li>
+                    <li><a href="join.html">Join Us</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="stormcenter.html">Storm Center</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav> 
+            <img src="images/SouthJordanLogo.png" alt="Sojo Logo">
+            <h1>Chamber of Commerce</h1>
+        </header>
+         
+
+        <main class="clearfix, large">
+            <section class="hero">
+                <picture class="heroimg">
+                    <source media="(max-width: 500px)" srcset="images/sojos.jpg">
+                    <source media="(max-width: 800px)" srcset="images/sojom.jpg">
+                <img src="images/sojol.jpg" alt="South Jordan image">   
+                    </picture> 
+                      
+                <div class="weathersummary">
+                    <p>Temperature: <span id="current-temp"></span>&deg;F</p>
+                    <p>Humidity: <span id="humidity"></span>%</p>
+                    <p>Current: <span id="current"></span></p>
+                </div>
+            </section>
+            
+            <div id="announcement" class="announcement">announcement!!</div> 
+            
+            <section class=business>
+                <h1>Our Members</h1>
+                <div class="bz">
+                    <h2>Merit Medical Systems</h2>
+                    <img src="images/merit.jpg" alt="merit medical">
+                    <p>Address: 1600 Merit Pkwy, <br>South Jordan, UT 84095</p>
+                    <p>Phone: (801) 253-1600</p>
+                </div>
+                <div class="bz">
+                    <h2>Intercap Lending</h2>
+                    <img src="images/intercap.jpg" alt="Intercap Lending">
+                    <p>11781 Lone Peak Pkwy #200, <br>Draper, UT 84020</p>
+                    <p>Phone: (385) 800-8300</p>
+                </div>
+                <div class="bz">
+                    <h2>Mountain America Credit Union</h2>
+                    <img src="images/macu.jpg" alt="MACU">
+                    <p>3451 S Jordan Pkwy, <br>South Jordan, UT 84095</p>
+                    <p>Phone: (801) 838-8990</p>
+                </div>
+
+
+
+            </section>
+        
+        
+        
+        </main>
+
+
+
+        <footer></footer>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
