@@ -163,16 +163,16 @@ nav ul.hide {display: none;}
     border: none;
     border-radius: 10px;
     width: 80%;
-    background-color: #56a3a6;
+    background-color: #D4EAC8;
     margin: 6% auto;
     padding: 10px;
-    box-shadow: 0 0 15px #605b56;
+    box-shadow: 0 0 15px #605B56;
     margin-bottom: 50px;
 }
 
 .upcoming h2 {
-    color: #ffffff;
-    border-bottom: 2px solid #ffffff;
+    color: #605B56;
+    border-bottom: 2px solid #605B56;
     text-align: center;
     padding: 10px;
     font-size: 1.5em;
@@ -180,7 +180,7 @@ nav ul.hide {display: none;}
 }
 
 .upcoming p {
-    color: #ffffff;
+    color: #605B56;
     text-align: center;
 }
 
