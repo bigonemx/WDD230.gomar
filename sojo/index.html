@@ -13,22 +13,21 @@
     </head>
 
     <body>
-        <header>
-           
-            <nav class="clearfix">
-                <button onclick="toggleMenu()">&#9776;</button>
-                <ul id="primaryNav" class="hide">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="city.html">City</a></li>
-                    <li><a href="join.html">Join Us</a></li>
-                    <li><a href="directory.html">Directory</a></li>
-                    <li><a href="stormcenter.html">Storm Center</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav> 
-            <img src="images/SouthJordanLogo.png" alt="Sojo Logo">
+        <header class="clearfix">
+            <img src="images/logo.png" alt="Sojo Logo">
             <h1>Chamber of Commerce</h1>
         </header>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="city.html">City</a></li>
+                <li><a href="join.html">Join Us</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav> 
          
 
         <main class="clearfix, large">
@@ -40,13 +39,13 @@
                     </picture> 
                       
                 <div class="weathersummary">
-                    <p>Temperature: <span id="current-temp"></span>&deg;F</p>
+                    <p>Now: <span id="current-temp"></span>&deg;F</p>
                     <p>Humidity: <span id="humidity"></span>%</p>
                     <p>Current: <span id="current"></span></p>
                 </div>
             </section>
             
-            <div id="announcement" class="announcement">announcement!!</div> 
+            <div id="announcement" class="announcement"></div> 
             
             <section class=business>
                 <h1>Our Members</h1>
@@ -68,18 +67,64 @@
                     <p>3451 S Jordan Pkwy, <br>South Jordan, UT 84095</p>
                     <p>Phone: (801) 838-8990</p>
                 </div>
-
-
-
+                <div class="ccommerce">
+                    <p>The South Jordan Chamber of Commerce, originally located at City Hall was founded in 2003 with 60 members and now totals 150 businesses recently relocating to 11565 S District Main Dr, Suite 600.</p>
+                    <p>The strong and vibrant Board of Directors has a vision for making the South Jordan Chamber of Commerce the best it can be for the city of South Jordan. Come join us and become a part of South Jordan history!</p>
+                </div>
+                <a class="submitbutton" href="join.html">Join Us</a>
             </section>
-        
-        
-        
+            <section class="upcoming">
+                <h2>Upcoming Events</h2>
+                <p>April 27th - Community Service</p>
+                <p>May 5th - Mexican Celebration</p>
+                <p>May 20th - Library Event for Kids</p>
+            </section>
+            <section class="forecast">
+                <h2>3 Day Forecast</h2>
+                <div class="forecast-grid">
+                        <Div class="dfc">
+                            <h4><span id="dayofweek1"></span></h4>
+                            <img id="icon1" src="https://github.com/yuvraaaj/openweathermap-api-icons/blob/master/icons/unknown.png?raw=true" alt="unknown" />
+                            <p><span id="forecast1"></span>&#8457;</p>
+                        </Div>
+                        <Div class="dfc">
+                            <h4><span id="dayofweek2"></span></h4>
+                            <img id="icon2" src="https://github.com/yuvraaaj/openweathermap-api-icons/blob/master/icons/unknown.png?raw=true" alt="unknown" />
+                            <p><span id="forecast2"></span>&#8457;°</p>
+                        </Div>
+                        <Div class="dfc">
+                            <h4><span id="dayofweek3"></span></h4>
+                            <img id="icon3" src="https://github.com/yuvraaaj/openweathermap-api-icons/blob/master/icons/unknown.png?raw=true" alt="unknown" />
+                            <p><span id="forecast3"></span>&#8457;</p>
+                        </Div>
+                </div>
+            </section>
+            <section class="info">
+                <div class="company">
+                    <h4>South Jordan Chamber of Commerce</h4>
+                    <p>11565 District Main Dr</p>
+                    <p>South Jordan, UT 84095</p>
+                    <p>Phone: 801-253-5200</p>
+                </div>
+
+                <div class="socialmedia">
+                    <a class="smlogo" href="https://www.facebook.com/southjordanchamber/" target="blanket">
+                        <img src="images/facebook.png" alt="Facebook icon"/>
+                    </a>
+                    <a class="smlogo" href="https://www.youtube.com/channel/UC_HkbNDcX8VzPjeDdPItI5Q" target="blanket">
+                        <img src="images/youtube.png" alt="youtube icon"/>
+                    </a>
+                    <a class="smlogo" href="https://twitter.com/SJCofCommerce" target="blanket">
+                        <img src="images/twitter.png" alt="twitter icon"/>
+                    </a>
+                </div>
+        </section> 
+            
         </main>
-
-
-
-        <footer></footer>
+        <footer class="clearfix">
+            Last Updated: <span id="Modified"></span> <br>
+            Weather Data provided by OpenWeatherMap  
+        </footer>
         <script src="js/scripts.js"></script>
     </body>
 </html>

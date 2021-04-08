@@ -1,4 +1,4 @@
-/*          General         */
+                    /*          General         */
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
@@ -8,17 +8,38 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     clear: both;
   }
 
-/*          Body            */
+                    /*          Body            */
 body {
     font-size: 16px;
     font-family: 'Kiwi Maru', serif;
     }
 
-/*          Header          */
+h1, h2, h3, h4 {font-family: 'Lato', sans-serif;}
+
+
+                    /*          Header          */
 header {
     padding-top: 0;
-    padding-bottom: 2rem;
-    background-color: #C0D8E0;
+    margin-top: 0;
+    background-color: #605b56;
+}
+
+header img {
+    float: left; 
+    margin: 1rem;
+    padding: 10px; 
+    width: 80px;
+    border: none;
+    border-radius: 100px;
+    background-color: white;
+}
+
+header h1 {
+    font-size: 1.2rem;
+    margin-top: 0rem;
+    padding-left: 8rem;
+    padding-top: 3rem;
+    color: #ffffff;
 }
 
 nav button {
@@ -61,18 +82,10 @@ nav ul li a:hover {
 
 nav ul.hide {display: none;}
 
-header img{float: left; margin: 10px; width: 80px;}
-header h1 {
-    margin-top: 1.5rem;
-    margin-bottom: 0;
-    margin-left: 7rem;
-    font-family: 'Kiwi Maru', serif; 
-    font-size: 1rem;
-    color: Black;
-}
 
 
-/*          Main            */
+
+                    /*          Main            */
 
 .hero {
     position: relative;
@@ -87,8 +100,9 @@ header h1 {
 .weathersummary {
     position: absolute;
     top: 0;
-    left: .5rem;;
-    
+    left: .5rem;
+    background: radial-gradient(#605b56, #c0d8e0);
+    opacity: .8
 }
 
 .weathersummary p {
@@ -96,7 +110,7 @@ header h1 {
     margin: .5rem;
     color: white;
     font-weight: bold;
-    text-shadow: -1px -1px 2px darkred;
+    text-shadow: -1px -1px 2px black;
 }
 
 .announcement {
@@ -111,14 +125,14 @@ header h1 {
     grid-template-columns: 1fr;
     grid-gap: 10px;
     margin-bottom: 1em;
-    background-color: #56a3a6;
+    margin-bottom: 50px;
 }
 
 .bz {
     border: white solid 1px;
     border-radius: 10px;  
     margin: 10px;
-
+    background-color: #C0D8E0;
 }
 
 .business img {
@@ -127,3 +141,119 @@ header h1 {
     width: 90%;
     padding: 5px;
 }
+
+.ccommerce {
+    padding: 1rem;
+}
+
+.submitbutton {
+    display: block;
+    border: none;
+    border-radius: 5px;
+    background-color: #605b56;
+    color: white;
+    padding: .75rem 1.5rem;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+                    /* Upcoming */
+ 
+.upcoming {
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+    background-color: #56a3a6;
+    margin: 6% auto;
+    padding: 10px;
+    box-shadow: 0 0 15px #605b56;
+    margin-bottom: 50px;
+}
+
+.upcoming h2 {
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.upcoming p {
+    color: #ffffff;
+    text-align: center;
+}
+
+
+                    /* Forecast */
+
+.forecast {
+   width: 90%;
+   margin: auto;
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+
+.forecast-grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+text-align: center;
+}
+                                        
+.dfc {
+border-radius: 100px;
+margin: .5rem;
+box-shadow: 0 0 15px #605b56;
+padding: 10px;
+}
+                    
+.dfc h4{
+    font-size: .8rem;
+    margin: 0;
+}
+.dfc p{margin: 0;}
+                    
+.dfc img {
+width: 4rem;
+margin: -10px;
+}
+
+.info {
+    background-color: #d4eac8;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 1rem;
+
+}
+
+.company {
+    grid-column: 1/3;
+}
+
+.socialmedia {
+    grid-column: 2/3;
+    border-bottom: none;
+}
+
+.smlogo {
+    text-decoration: none;
+}
+  
+  .smlogo img {
+      width: 30px;
+      margin: 5px;
+  }
+
+                    /* Footer */
+footer {
+    background-color: #605b56;
+    color: #ffffff;
+    font-size: .7rem;
+    padding: .7rem;
+    text-align: center;
+    max-width: 100%;
+}
+
+
