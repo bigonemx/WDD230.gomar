@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>WDD 230: Sojo final pryect - Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <!--Stylesheets-->
+        <style>@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');</style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+
+    <body>
+        <header class="clearfix">
+            <img src="images/logo.png" alt="Sojo Logo">
+            <h1>Chamber of Commerce</h1>
+        </header>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="city.html">City</a></li>
+                <li><a href="join.html">Join Us</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav> 
+
+        <main class="clearfix, large">
+            <section class="reg">
+                <h1>Thanks!</h1>
+            <h1>We will contact you in the next 24 hrs.</h1>
+            <a href="index.html">Back home...</a>
+            </section>
+            
+            </main>
+        <footer class="clearfix">
+            Last Updated: <span id="Modified"></span> <br>
+            Weather Data provided by OpenWeatherMap  
+        </footer>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

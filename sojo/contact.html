@@ -28,11 +28,84 @@
             </ul>
         </nav> 
 
+        <main>
+            <form method="GET" action="thanks.html">
+                <h1>Contact us</h1>
+                <h2>Our goal is to call you back in less than 24 hrs</h2>
+                <fieldset>
+                    <legend>Information</legend>
+                    <label>First Name *<input type="text" name="fname" pattern="[A-Za-z ]{5,}" required></label>
+                    <label>Last Name *<input type="text" name="lname" pattern="[A-Za-z ]{5,}" required></label>
+                    <label>Email *<input type="email" name="email" placeholder="email@address.com" required></label>
+                    <label>Phone<input type="tel" name="phone" minlength="10" placeholder="1234445555" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Additional Info</legend>
+                    <label>Comments: <textarea name="comments" rows="10" cols="38" placeholder="Comments here..."></textarea></label>
+                </fieldset>
+                <input class="submitbutton" name="submit" id="submit" type="submit" value="Submit">
+            </form>
 
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="3">Board of Directors</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Edwin Gomar</th>
+                        <th>Chair</th>
+                        <th>edwin@sojo.com</th>
+                    </tr>
+                    <tr>
+                        <th>Scott Smith</th>
+                        <th>Vice-President</th>
+                        <th>scott@sojo.com</th>
+                    </tr>
+                    <tr>
+                        <th>Jenni Storm</th>
+                        <th>Marketing Chair</th>
+                        <th>jenni@sojo.com</th>
+                    </tr>
+                    <tr>
+                        <th>Son Jon</th>
+                        <th>Treasurer</th>
+                        <th>son@sojo.com</th>
+                    </tr>
+                    <tr>
+                        <th>Maria Suarez</th>
+                        <th>Secretary</th>
+                        <th>maria@sojo.com</th>
+                    </tr>
+                </tbody>
+            </table>
+            <section class="embed">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3031.2343689502577!2d-111.93899494870479!3d40.55850137924763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x875286108aab625d%3A0x149120f03b04c97e!2sSouth%20Jordan%20City%20Hall!5e0!3m2!1sen!2sus!4v1618089951849!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/-_IgDTQrLi0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+            <section class="info">
+                <div class="company">
+                    <h4>South Jordan Chamber of Commerce</h4>
+                    <p>11565 District Main Dr</p>
+                    <p>South Jordan, UT 84095</p>
+                    <p>Phone: 801-253-5200</p>
+                </div>
 
+                <div class="socialmedia">
+                    <a class="smlogo" href="https://www.facebook.com/southjordanchamber/" target="blanket">
+                        <img src="images/facebook.png" alt="Facebook icon"/>
+                    </a>
+                    <a class="smlogo" href="https://www.youtube.com/channel/UC_HkbNDcX8VzPjeDdPItI5Q" target="blanket">
+                        <img src="images/youtube.png" alt="youtube icon"/>
+                    </a>
+                    <a class="smlogo" href="https://twitter.com/SJCofCommerce" target="blanket">
+                        <img src="images/twitter.png" alt="twitter icon"/>
+                    </a>
+                </div>
+        </section> 
 
-
-
+        </main>
 
         <footer class="clearfix">
             Last Updated: <span id="Modified"></span> <br>

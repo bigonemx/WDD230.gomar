@@ -55,6 +55,17 @@ border-radius: 20px;
 }
 
 
+/*                  form                    */
+
+form {
+    width: 40%;
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+
 /*                  forecast                    */
 
 .dfc h4 {
@@ -83,4 +94,23 @@ padding: 1rem;
 
 }
 
+/*          Gallery         */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 
+
+
+
+table {
+    width: 60%;
+}
+
+.embed {
+    margin: auto;
+}
+
+.video {
+    margin: 1rem 2% 2rem 10rem;
+}

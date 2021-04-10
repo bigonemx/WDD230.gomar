@@ -1,5 +1,11 @@
 @media only screen and (min-width: 1028px) {
 
+/*                  Genereal                   */
+
+h1, h2, h3, h4, p {
+    font-size: 2rem;
+}
+
 .large {
     max-width: 56rem;
     margin: 0 auto;
@@ -21,9 +27,18 @@
     display: block;
 }
 
-.bz h2, p {
-    font-size: 1.3rem;
+.submitbutton {
+    width: 20%;
 }
+
+/*          Gallery         */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gallery figure:hover {box-shadow: 0 0 50px #333;}
 
 
 }
+
