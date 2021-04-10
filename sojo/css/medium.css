@@ -1,0 +1,86 @@
+@media only screen and (min-width: 560px) {
+/*                  Genereal                   */
+
+h1, h2, h3, h4, p {
+    font-size: 1.5rem;
+}
+
+
+/*                  Header                  */
+.header {
+    padding-bottom: 1rem;
+}
+
+header img {
+    margin: 2rem 3rem 2rem 4rem;
+    width: 5rem;
+
+}
+header h1 {
+    font-size: 3rem;
+}
+
+/*                  Nav                 */
+
+nav button {display: none;}
+    
+nav ul.hide {display: block;}
+                            
+nav ul li {float: left;}                
+
+nav ul li a {
+    font-size: 1rem;
+    border: none;
+    border-right: 1px solid rgba(0,0,0,0.3);
+    padding: 1rem;
+}  
+
+/*                  Main                    */
+
+.weathersummary {
+    top: 1rem;
+    left: 1rem;
+}
+
+.weathersummary p {
+  font-size: 2rem;
+}
+
+
+.submitbutton {
+width: 30%;
+padding: 2rem;
+font-size: 3rem;
+border-radius: 20px;
+}
+
+
+/*                  forecast                    */
+
+.dfc h4 {
+    font-size: 2rem;
+}
+
+.dfc p {
+    font-size: 2rem;
+}
+
+.dfc img {
+    width: 12rem;
+    margin: 0;
+}
+
+.smlogo img {
+    width: 80px;
+}
+
+
+/*                  footer                  */
+footer {
+font-size: 1.5rem;
+padding: 1rem;
+}
+
+}
+
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>WDD 230: Sojo final pryect - Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <!--Stylesheets-->
+        <style>@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');</style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+
+    <body>
+        <header class="clearfix">
+            <img src="images/logo.png" alt="Sojo Logo">
+            <h1>Chamber of Commerce</h1>
+        </header>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="city.html">City</a></li>
+                <li><a href="join.html">Join Us</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav> 
+        <main class="clearfix">
+            <div class="cityinfo">
+                <h1>South Jordan City</h1>
+                <h2>History</h2>
+                <p>South Jordan is a city in south central Salt Lake County, Utah, United States, 18 miles (29 km) south of Salt Lake City. Part of the Salt Lake City metropolitan area, the city lies in the Salt Lake Valley 
+                    along the banks of the Jordan River between the 10,000-foot (3,000 m) Oquirrh Mountains and the 11,000-foot (3,400 m) Wasatch Mountains. The city has 3.5 miles (5.6 km) of the Jordan River Parkway that contains 
+                    fishing ponds, trails, parks, and natural habitats. The Salt Lake County fair grounds and equestrian park, 67-acre (27 ha) Oquirrh Lake, and 27 parks are located inside the city. As of 2019, there were 76,598 people in South Jordan.</p>
+                <p>Founded in 1859 by Mormon settlers and historically an agrarian town, South Jordan has become a rapidly growing bedroom community of Salt Lake City. Kennecott Land, a land development company, has recently begun construction on the master-planned 
+                    Daybreak Community for the entire western half of South Jordan, potentially doubling South Jordan's population. South Jordan was the first municipality in the world to have two temples of The Church of Jesus Christ of Latter-day Saints 
+                    (Jordan River Utah Temple and Oquirrh Mountain Utah Temple), it now shares that distinction with Provo, Utah. The city has two TRAX light rail stops, as well as one commuter rail stop on the FrontRunner. South Jordan is also a growing tech hub 
+                    with headquarters of companies like IT software company Ivanti.</p>
+                <h2>Demographics</h2>
+                <p>According to estimates from the U.S. Census Bureau,[40] as of 2017, there were 70,954 people in South Jordan. The racial makeup of the county was 87.4% non-Hispanic White, 0.9% Black, 0.2% Native American, 3.4% Asian, 0.6% Pacific Islander, and 
+                    2.5% from two or more races. 5.3% of the population were Hispanic or Latino of any race.</p>
+                <p>The median income for a household in the city was $99,856,[43] Salt Lake County was $58,004 and Utah was $56,330. Males had a median income of $65,722 versus $41,171 for females. The per capita income for the city was $36,125.[43] About 1.6% 
+                    of families and 2.7% of the population were below the poverty line, including 2.7% of those under age 18 and 2.4% of those age 65 or over. In Salt Lake County, 10.3% of the population were below the poverty line and 10.8% of the population in 
+                    Utah was below the poverty line. Of those people 25 years and older in the city, 96.8% were high school graduates compared to 86.8% in Salt Lake County and 87.7% in Utah. Those attaining a college degree were 41.2%[43] of South Jordan's population.</p>
+                    <a class="sojolink" href="https://en.wikipedia.org/wiki/South_Jordan,_Utah">link to wikipedia</a>
+            </div>
+            <div class="gallery">
+                <figure>
+                    <img src="images/gallery/640x480.png" data-src="images/gallery/towncenter.jpeg" alt="City town">
+                    <figcaption>South Jordan City Town</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/gallery/640x480.png" data-src="images/gallery/panoramic.jpeg" alt="Panoramic photo">
+                    <figcaption>City Panoramic Photo</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/gallery/640x480.png" data-src="images/gallery/lake.jpeg" alt="Lake">
+                    <figcaption>Oquirrh Lake</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/gallery/640x480.png" data-src="images/gallery/oquirrh.jpeg" alt="Oquirrh LDS Temple">
+                    <figcaption>Oquirrh Lake LDS Temple</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/gallery/640x480.png" data-src="images/gallery/trax.jpeg" alt="SoJo Trax Station">
+                    <figcaption>South Jordan Trax Station</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/gallery/640x480.png" data-src="images/gallery/daybreak.jpeg" alt="Daybreak">
+                    <figcaption>Daybreak Community</figcaption>
+                </figure>
+            </div>     
+        </main>
+
+
+        <footer class="clearfix">
+            Last Updated: <span id="Modified"></span> <br>
+            Weather Data provided by OpenWeatherMap  
+        </footer>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

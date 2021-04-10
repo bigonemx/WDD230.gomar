@@ -1,4 +1,4 @@
-                    /*          General         */
+/*                  General                 */
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
@@ -8,7 +8,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     clear: both;
   }
 
-                    /*          Body            */
+/*                  Body                    */
 body {
     font-size: 16px;
     font-family: 'Kiwi Maru', serif;
@@ -17,7 +17,7 @@ body {
 h1, h2, h3, h4 {font-family: 'Lato', sans-serif;}
 
 
-                    /*          Header          */
+/*                  Header                  */
 header {
     padding-top: 0;
     margin-top: 0;
@@ -85,7 +85,7 @@ nav ul.hide {display: none;}
 
 
 
-                    /*          Main            */
+/*                  Main                    */
 
 .hero {
     position: relative;
@@ -99,7 +99,7 @@ nav ul.hide {display: none;}
 
 .weathersummary {
     position: absolute;
-    top: 0;
+    top: .5rem;
     left: .5rem;
     background: radial-gradient(#605b56, #c0d8e0);
     opacity: .8
@@ -142,7 +142,7 @@ nav ul.hide {display: none;}
     padding: 5px;
 }
 
-.ccommerce {
+.ccommerce, .join {
     padding: 1rem;
 }
 
@@ -156,8 +156,10 @@ nav ul.hide {display: none;}
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
-                    /* Upcoming */
+
+/*                  Upcoming                    */
  
 .upcoming {
     border: none;
@@ -175,7 +177,6 @@ nav ul.hide {display: none;}
     border-bottom: 2px solid #605B56;
     text-align: center;
     padding: 10px;
-    font-size: 1.5em;
     margin: 0;
 }
 
@@ -185,7 +186,7 @@ nav ul.hide {display: none;}
 }
 
 
-                    /* Forecast */
+/*                  Forecast                    */
 
 .forecast {
    width: 90%;
@@ -246,7 +247,8 @@ margin: -10px;
       margin: 5px;
   }
 
-                    /* Footer */
+
+/*                  Footer                  */
 footer {
     background-color: #605b56;
     color: #ffffff;
@@ -257,3 +259,106 @@ footer {
 }
 
 
+/*                  City                    */
+
+.cityinfo{
+    margin: 1rem;
+}
+
+.cityinfo p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.sojolink {
+    margin-left: 60%;
+    color: blue;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    column-gap: 1rem;
+    align-items: center;
+    justify-items:center;
+    margin: 0 0 1rem 0;
+}
+
+.gallery img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    width: 100%;
+  }
+
+  .gallery img[data-src] {
+    filter: blur(0.2em);
+  }
+
+  .gallery figure {
+    box-shadow: -8px 5px 15px 5px #c1c1c1;
+}
+
+.gallery figcaption {
+    padding: .7rem 1rem;
+    text-align: center;
+}
+
+
+
+
+
+/*                    join                    */
+
+.join img {
+    width: 100%;
+}
+
+form {
+    display: block;
+    margin: 1rem;
+}
+
+fieldset {
+    border: 2px solid #605b56;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+legend {
+    padding: .5rem;
+    font-size: 1.5rem;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form input, form input:required {
+    width: 100%;
+    border-radius: 3px;
+    padding: .5rem;
+}
+
+form input:required {
+    border-left: solid 3px red;
+}
+
+.opt {
+    display: block;
+    padding: .75rem 1rem;
+}
+
+form label.opt input {
+    width: 30%;
+}
+
+.reg{
+    display: block;
+    margin: 2.5rem;
+    padding: 1rem;
+
+
+}

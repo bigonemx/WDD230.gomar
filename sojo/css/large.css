@@ -1,0 +1,29 @@
+@media only screen and (min-width: 1028px) {
+
+.large {
+    max-width: 56rem;
+    margin: 0 auto;
+}
+
+.business {
+    max-width: 1100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+.business h1 {
+    grid-column: 1/4;
+}
+
+.bz {
+    display: block;
+}
+
+.bz h2, p {
+    font-size: 1.3rem;
+}
+
+
+}
