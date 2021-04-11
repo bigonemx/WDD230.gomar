@@ -413,3 +413,27 @@ tr:nth-child(odd) {
 .video {
     max-width: 560px;
 }
+
+
+/*                  Directory                   */
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    width: 90%;
+}
+
+.cards section {
+    border: solid #56a3a6;
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 0 15px #605b56;
+}
+
+.cards section img {
+    width: 80%;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}

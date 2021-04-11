@@ -1,71 +1,60 @@
 {
-    "towns": [
+    "directory": [
       {
-        "name": "Soda Springs",
-        "photo": "sodasprings.jpg",
-        "motto": "Historic Oregon Trail Oasis. The Soda is on Us.",
-        "yearFounded": 1858,
-        "currentPopulation": 2985,
-        "averageRainfall": 15.75,
-        "events": [
-          "February 29: Geyser Song Day",
-          "May 1-6: Days of May Celebration",
-          "October 15-16: Octoberfest"
-        ]
+        "name": "Megaplex",
+        "logo": "megaplex.png",
+        "phone": "801-847-588",
+        "address": "3761 W Parkway Plaza Dr",
+        "web": "https://www.megaplextheatres.com"
       },
+
       {
-        "name": "Springfield",
-        "photo": "springfield.jpg",
-        "motto": "Where everyone is lifted.",
-        "yearFounded": 1826,
-        "currentPopulation": 17852,
-        "averageRainfall": 17,
-        "events": [
-          "January 8: Spring into Winter",
-          "April 10-20: Celebration of Life",
-          "July 31-Aug 15: Dog Days of Summer Festival"
-        ]
+        "name": "Cafe Rio",
+        "logo": "caferio.png",
+        "phone": "801-547-2240",
+        "address": "1664 W Towne Center Dr",
+        "web": "https://www.caferio.com"
       },
+
       {
-        "name": "Fish Haven",
-        "photo": "fishhaven.jpg",
-        "motto": "This is Fish Heaven.",
-        "yearFounded": 1864,
-        "currentPopulation": 501,
-        "averageRainfall": 14.20,
-        "events": [
-          "April 1: How Big Was That Fish Day",
-          "May 15-30: Rush the Creek Days",
-          "July 24: Bear Lake Blunder Run",
-          "December 12: Light the Tree"
-        ]
+        "name": "Sport Clips Haircut",
+        "logo": "clips.png",
+        "phone": "801-874-0054",
+        "address": "3595 S Jordan Pkwy Suite #400",
+        "web": "https://sportclips.com/"
       },
+
       {
-        "name": "Franklin",
-        "photo": "franklin.jpg",
-        "motto": "Where you will grow!",
-        "yearFounded": 1788,
-        "currentPopulation": 30458,
-        "averageRainfall": 21,
-        "events": [
-          "March 4: March to the Drum of Donuts",
-          "September 5 - 11: Founder Days",
-          "December 1 - 26: Christmas in the Heart"
-        ]
+        "name": "The Pie Pizza",
+        "logo": "pie.png",
+        "phone": "801-555-0000",
+        "address": "10627 Redwood Rd",
+        "web": "https://www.thepie.com"
       },
+
       {
-        "name": "Greenville",
-        "photo": "greenville.jpg",
-        "motto": "Green is our way of life.",
-        "yearFounded": 1805,
-        "currentPopulation": 33458,
-        "averageRainfall": 25,
-        "events": [
-          "February 10-12: Greenbration",
-          "May 8 - 18: Greenville Founder Days",
-          "June 20: Verde and Valiant Day",
-          "November 15-16: Greensome Gathering"
-        ]
+        "name": "Cockayne Law Firm",
+        "logo": "cockayne.png",
+        "phone": "801-546-2063",
+        "address": "6783 Redwood Rd",
+        "web": "https://cockaynelaw.com/"
+      },
+
+      {
+        "name": "Genesis Dental",
+        "logo": "genesis.png",
+        "phone": "801-876-9617",
+        "address": "11531 District Main Dr #600",
+        "web": "https://genesisdental.com"
+      },
+
+      {
+        "name": "U of U Health",
+        "logo": "uofu.png",
+        "phone": "801-258-6482",
+        "address": "5126 Daybreak Pkwy",
+        "web": "https://healthcare.utah.edu/"
       }
+    
     ]
   }

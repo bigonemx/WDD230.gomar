@@ -69,5 +69,38 @@ if ('IntersectionObserver' in window) {
 }
 
 
+// directory
+const requestURL = 'js/sojo.json';
 
+fetch(requestURL)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    const directory = jsonObject['directory'];
 
+    for (let i = 0; i < directory.length; i++) {
+        let card = document.createElement('section');
+        let bname = document.createElement('h2');
+        let bphone= document.createElement('p');
+        let baddress= document.createElement('p');
+        let bweb = document.createElement('p');
+        let blogo = document.createElement('img');  
+
+        bname.textContent = directory[i].name;
+        bphone.textContent = "Phone: " + directory[i].phone;
+        baddress.textContent = "Address: " + directory[i].address;
+        bweb.textContent = "web: " + directory[i].web;
+        blogo.setAttribute('src', 'images/partners/' + directory[i].logo);
+        blogo.setAttribute('alt', `${directory[i].name}`);
+        blogo.setAttribute('loading', 'lazy');
+
+      card.appendChild(bname);
+      card.appendChild(blogo);
+      card.appendChild(bphone);
+      card.appendChild(baddress);
+      card.appendChild(bweb);
+
+      document.querySelector('div.cards').appendChild(card);
+    }
+  });
