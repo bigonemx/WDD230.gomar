@@ -48,7 +48,6 @@ nav ul li a {
 
 
 .submitbutton {
-width: 30%;
 padding: 2rem;
 font-size: 3rem;
 border-radius: 20px;
@@ -57,9 +56,7 @@ border-radius: 20px;
 
 /*                  form                    */
 
-form {
-    width: 40%;
-}
+
 
 label {
     font-size: 1.5rem;
@@ -92,7 +89,6 @@ font-size: 1.5rem;
 padding: 1rem;
 }
 
-}
 
 /*          Gallery         */
 .gallery {
@@ -113,4 +109,6 @@ table {
 
 .video {
     margin: 1rem 2% 2rem 10rem;
+}
+
 }
